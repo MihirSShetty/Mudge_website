@@ -12,7 +12,7 @@ print(starting_loc)
 if not os.path.exists(final_loc):
     os.mkdir(final_loc)
 
-# loop through pokedex and convert files and place it in new
+# loooooop through pokedex and convert files and place it in new
 for root, dirs, all_files in os.walk(starting_loc):
     for files in all_files:
         path = f"{starting_loc}/{files}"
