@@ -6,8 +6,6 @@ from PIL import Image
 starting_loc = sys.argv[1]
 final_loc = sys.argv[2]
 
-print(starting_loc)
-
 # check if new exists if not create new
 if not os.path.exists(final_loc):
     os.mkdir(final_loc)
